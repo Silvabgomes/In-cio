@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cascadia Code', sans-serif;
+    color: #4c5158;
+    background-color: #2d383e;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+header {
+    background-color: #051822;
+    color: #aa7452;
+    padding: 3rem 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+
+header .container .text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 190px; 
+    text-align: center;
+}
+
+header .container .text h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem; 
+}
+
+header .container .text p {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #c98c66;
+    text-align: center; 
+}
+
+.profile-photo {
+    width: 120px;  
+    height: 120px; 
+    border-radius: 50%;
+    border: 2px solid #aa7452;
+}
+
+
+section {
+    padding: 2rem 0;
+    margin: 1rem 0;
+}
+
+h2 {
+    text-align: justify;
+    color: #969a9e;
+    text-align: justify-all;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #bb7738;
+    display: inline-block;
+}
+
+section p {
+    font-size: 1.0rem;
+    color: #aa7452;
+}
+
+.project {
+    background-color: #2d383e;
+    border: 1px solid #aa7452;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project p {
+    color: #969a9e;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: #051822
+}
+
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+    padding-top: 1rem;
+}
+
+#skills li {
+    background-color: #051822;
+    color: #aa7452;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+#contact {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#contact p {
+    margin-bottom: 0.5rem;
+}
+
+#contact a {
+    color: #aa7452;
+    text-decoration: none;
+    font-weight: none;
+    font-size: 1.0rem;
+    margin-bottom: 1.0rem;
+}
+
+#contact a:hover {
+    text-decoration: none;
+    color: #051822;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #051822;
+    color: #969a9e;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
