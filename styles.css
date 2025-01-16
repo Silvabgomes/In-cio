@@ -44,7 +44,7 @@ header .container .text h1 {
     font-size: 2.8rem;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 1rem; 
+    margin-bottom: 0.5rem; 
 }
 
 header .container .text p {
@@ -72,7 +72,7 @@ h2 {
     color: #969a9e;
     text-align: justify-all;
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     border-bottom: 2px solid #bb7738;
     display: inline-block;
 }
@@ -87,7 +87,7 @@ section p {
     border: 1px solid #aa7452;
     padding: 1.5rem;
     border-radius: 8px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -133,7 +133,7 @@ section p {
     text-decoration: none;
     font-weight: none;
     font-size: 1.0rem;
-    margin-bottom: 1.0rem;
+    margin-bottom: 0.5rem;
 }
 
 #contact a:hover {
