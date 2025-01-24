@@ -95,10 +95,23 @@ section p {
     color: #969a9e;
 }
 
+.project a {
+    font-size: 18px;
+    color: #aa7452;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.project a:hover {
+    color: #051822;
+    text-decoration: underline; 
+}
+
 .project:hover {
     transform: translateY(-5px);
     box-shadow: 1px 4px 12px rgba(0, 0, 0, 0.1);
-    border-color: #051822
+    border-color: #051822;
 }
 
 
